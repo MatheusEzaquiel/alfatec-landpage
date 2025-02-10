@@ -22,7 +22,7 @@ export default function Courses() {
                 <span className="text-4xl font-extrabold md:text-5xl">nossos cursos</span>
             </h1>
 
-            <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
                 {courses.map((course) => (
                     <CardCourse
                         key={course.id}

@@ -55,18 +55,6 @@ export default function About() {
                 </h2>
 
                 <div className="py-10 flex justify-center items-center gap-5 md:gap-10">
-                    {/* Diretora */}
-                    <div className="text-center">
-                        <img
-                            src={diretora}
-                            alt="Diretora"
-                            className="h-[40vh] w-[40vh] rounded-full object-cover filter hover:brightness-75 mx-auto"
-                        />
-                        <div className="text-orange-400 mt-3">
-                            <h3 className="font-bold text-lg">Isabele Ferreira</h3>
-                            <p className="text-md">Diretora</p>
-                        </div>
-                    </div>
 
                     {/* Brendha */}
                     <div className="text-center">
