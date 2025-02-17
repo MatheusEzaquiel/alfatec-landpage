@@ -6,7 +6,7 @@ import ph from "../assets/phh.jpg";
 
 export default function About() {
     return (
-        <section className="px-5 py-60 bg-zinc-100">
+        <section className="flex justify-center items-center px-5 py-60 bg-zinc-100">
             
             <section className="pt-30 w-[75vw]">
                 <h1 className="text-4xl font-bold text-orange-500 text-center">
@@ -82,7 +82,7 @@ export default function About() {
                 </div>
             </div>*/}
 
-            {/*Sobre a Alfatec*/}
+            {/*Sobre a Alfatec
             <section className="py-60">
                 <h2 className="text-3xl sm:text-4xl font-bold text-orange-500 text-center">
                     <h2>Sobre a Escola</h2>
@@ -112,7 +112,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>*/}
         </section>
     );
 }

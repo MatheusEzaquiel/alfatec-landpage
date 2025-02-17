@@ -18,6 +18,7 @@ import About from "./About";
 import Contact from "./Contact";
 
 import borda from "../assets/borda-branca.svg";
+import SchoolStructure from "./SchoolStructure";
 
 export default function Home() {
     const students = [
@@ -50,6 +51,9 @@ export default function Home() {
             </section>
             <section>
                 <About/>
+            </section>
+            <section>
+                <SchoolStructure/>
             </section>
             <section className="w-full">
                 <img src={borda} alt="Borda Laranja" className="md:hidden bg-zinc-100"/>
