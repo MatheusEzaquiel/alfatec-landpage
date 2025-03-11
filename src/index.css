@@ -17,4 +17,7 @@
       @apply bg-orange-400;
     }
   }
-  
+
+@layer base {
+  .indent-first {text-indent: 20px;}
+}
