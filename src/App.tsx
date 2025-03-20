@@ -11,7 +11,19 @@ import Adm from "./pages/courses/Adm";
 
 export default function App() {
   return (
-      <BrowserRouter basename="/alfatec">
+    <BrowserRouter basename="/alfatec">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cursos" element={<Courses />} />
+        <Route path="/contato" element={<Contact />} />
+        <Route path="/enfermagem" element={<Enfer />} />
+        <Route path="/eletrotecnica" element={<Ele />} />
+        <Route path="/logistica" element={<Log />} />
+        <Route path="/sdt" element={<Sdt />} />
+        <Route path="/administracao" element={<Adm />} />
+      </Routes>
+    </BrowserRouter>
+      /* <BrowserRouter basename="/alfatec">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cursos" element={<Courses />} />
@@ -23,6 +35,6 @@ export default function App() {
             <Route path="/sdt" element={<Sdt />} />
             <Route path="/administracao" element={<Adm />} />
           </Routes>
-      </BrowserRouter>
+      </BrowserRouter>*/
   );
 };

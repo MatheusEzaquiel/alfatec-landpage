@@ -4,10 +4,10 @@ import { useState } from "react";
 
 export default function Header() {
     const menuItem = [
-        { id: 1, name: "Inicio", link: "/" },
-        { id: 2, name: "Sobre", link: "/sobre" },
-        { id: 3, name: "Cursos", link: "/cursos" },
-        { id: 4, name: "Contato", link: "/contato" },
+        { id: 1, name: "Inicio", link: "/", value: "home"},
+        { id: 2, name: "Sobre", link: "/sobre", value: "about" },
+        { id: 3, name: "Cursos", link: "/cursos", value: "course" },
+        { id: 4, name: "Contato", link: "/contato", value: "contact" },
     ];
 
     const [open, setOpen] = useState(false);
@@ -27,9 +27,13 @@ export default function Header() {
 
             <nav className="hidden md:flex md:space-x-10 text-zinc-50 text-2xl font-serif font-medium">
                 {menuItem.map((item) => (
+                    /* Link do React Router DOM
                     <Link key={item.id} to={item.link} className="hover:underline">
                         {item.name}
-                    </Link>
+                    </Link>*/
+                    <a href={`#${item.value}`} className="hover:underline">
+                        {item.name}
+                    </a>
                 ))}
             </nav>
             
