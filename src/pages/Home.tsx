@@ -62,11 +62,10 @@ export default function Home() {
                 <img src={borda} alt="Borda Laranja" className="rotate-180 md:hidden bg-zinc-100" />
                 <Contact />
             </section>
-            <a href="#home" className="fixed bottom-5 right-5 bg-orange-500 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:bg-orange-600 hover:scale-125 ">
-                <LuArrowBigUp size={90}/>
+            <a href="#home" className="fixed bottom-5 right-5 opacity-60 bg-orange-500 text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:bg-orange-600 hover:scale-125 hover:opacity-100 ">
+                <LuArrowBigUp size={50} className="sm:w-[90px] sm:h-[90px]"/>
             </a>
-
-
+            
         </Layout>
     );
 }
