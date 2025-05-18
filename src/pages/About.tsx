@@ -2,8 +2,6 @@ import valores from "../assets/valores.png";
 import visao from "../assets/visao.png";
 import missao from "../assets/missao.png";
 
-import ph from "../assets/phh.jpg";
-
 export default function About() {
     return (
         <section className="flex justify-center items-center px-5 py-60 bg-zinc-100">
