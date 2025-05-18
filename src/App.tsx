@@ -11,7 +11,8 @@ import Adm from "./pages/courses/Adm";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/alfatec">
+    //<BrowserRouter basename="/alfatec">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cursos" element={<Courses />} />
